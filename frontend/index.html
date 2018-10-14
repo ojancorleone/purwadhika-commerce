@@ -137,6 +137,11 @@
     </div>
   </div>
 
+  <script>
+    $(document).ready(() => {
+      $.get("http://localhost:5004/products.json").then(data => { console.log(data) })
+    })
+  </script>
 </body>
 
 </html>
