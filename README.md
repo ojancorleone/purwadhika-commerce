@@ -4,6 +4,7 @@
 ```
 npm i -g serve
 serve frontend
+serve backend -p 5004
 ```
 
 ## Development Setup
