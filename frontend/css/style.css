@@ -25,3 +25,19 @@
   font-size: small;
   color: red;
 }
+
+.card-img-top {
+  height: 200px;
+}
+
+.product-name {
+  height: 4rem;
+}
+
+.product-description {
+  height: 230px;
+}
+
+.product-discounted-price {
+  color: green;
+}

@@ -3,29 +3,29 @@
     {
       "id" : 1,
       "name" : "Macbook Pro 2016",
-      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, voluptatum blanditiis. Atque, voluptates veniam! Aut saepe, corporis reiciendis necessitatibus adipisci aperiam ipsum quas magni architecto dolor velit iste quia laborum?",
-      "image" : "http://placehold.it/250x150",
+      "description" : "Choose your MacBook from Rose Gold, Silver, Gold, or Space Gray, and configure it the way you want. ",
+      "image" : "https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/m/bp/mbp13/space/mbp13-space-select-201807?wid=904&hei=840&fmt=jpeg&qlt=95&.v=1529520054457",
       "category" : "laptop",
-      "price" : 10000000,
-      "discountedPrice" : 5000000
+      "price" : 10000,
+      "discountedPrice" : 5000
     },
     {
       "id" : 2,
-      "name" : "Lenovo ABC",
-      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, voluptatum blanditiis. Atque, voluptates veniam! Aut saepe, corporis reiciendis necessitatibus adipisci aperiam ipsum quas magni architecto dolor velit iste quia laborum?",
-      "image" : "http://placehold.it/250x150",
+      "name" : "Lenovo Thinkpad X1",
+      "description" : "The new ThinkPad X1 Carbon is a premium, ultralight business laptop featuring up to 15 hours battery life, Intel processing & RapidCharge technology.",
+      "image" : "https://www.lenovo.com/medias/lenovo-thinkpad-x10-carbon-hero.png?context=bWFzdGVyfHJvb3R8MTY0NTkwfGltYWdlL3BuZ3xoMWUvaDE1Lzk2NDg3MjgxNDU5NTAucG5nfDA2MWNjZjU5NTBiN2ZmMWJkMzQwNDg2MWYxZmFhM2Q2MzBjMjZmNzRiMzYzOTc5ZDNkMjA4MmYxMDVkNWVmYWI",
       "category" : "laptop",
-      "price" : 10000000,
-      "discountedPrice" : 5000000
+      "price" : 10000,
+      "discountedPrice" : 5000
     },
     {
       "id" : 3,
-      "name" : "ASUS XYZ",
-      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, voluptatum blanditiis. Atque, voluptates veniam! Aut saepe, corporis reiciendis necessitatibus adipisci aperiam ipsum quas magni architecto dolor velit iste quia laborum?",
-      "image" : "http://placehold.it/250x150",
+      "name" : "ASUS ROG STRIX",
+      "description" : "ROG Strix Hero Edition is built from the ground up for fearless Multiplayer Online Battle Arena heroes. Optimized to deliver a competitive MOBA edge.",
+      "image" : "https://www.excaliberpc.com/images/661022_1/large.jpg",
       "category" : "laptop",
-      "price" : 10000000,
-      "discountedPrice" : 5000000
+      "price" : 10000,
+      "discountedPrice" : 5000
     }
   ]
 }
