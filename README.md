@@ -2,6 +2,6 @@
 
 ## Todo List
 
-[ ] data produk
-[ ] wireframe product page
-[ ] develop front end untuk produk page
+1. [ ] data produk
+1. [ ] wireframe product page
+1. [ ] develop front end untuk produk page
