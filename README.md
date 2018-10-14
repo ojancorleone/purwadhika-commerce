@@ -6,6 +6,11 @@ npm i -g serve
 serve frontend
 ```
 
+## Development Setup
+```
+git remote add upsteam https://github.com/kemalelmizan/purwadhika-commerce.git
+```
+
 ## Todo List
 
 1. [ ] data produk
