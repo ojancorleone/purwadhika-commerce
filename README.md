@@ -23,3 +23,12 @@ git push origin master
 1. [x] data produk
 1. [x] wireframe product page
 1. [ ] develop front end untuk produk page
+
+## Troubleshoot
+
+### Reset to upstream
+
+```
+git reset --hard HEAD
+git pull upstream master
+```
