@@ -60,68 +60,7 @@
               </div>
               <div class="col-sm-8 main-products">
                 <div class="row">
-                  <div class="card product" style="width: 12rem;">
-                    <img class="card-img-top" src="https://placehold.it/250x150" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                  <div class="card product" style="width: 12rem;">
-                    <img class="card-img-top" src="https://placehold.it/250x150" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                  <div class="card product" style="width: 12rem;">
-                    <img class="card-img-top" src="https://placehold.it/250x150" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                  <div class="card product" style="width: 12rem;">
-                    <img class="card-img-top" src="https://placehold.it/250x150" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                  <div class="card product" style="width: 12rem;">
-                    <img class="card-img-top" src="https://placehold.it/250x150" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                  <div class="card product" style="width: 12rem;">
-                    <img class="card-img-top" src="https://placehold.it/250x150" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
                 </div>
-
               </div>
             </div>
 
@@ -139,7 +78,22 @@
 
   <script>
     $(document).ready(() => {
-      $.get("http://localhost:5004/products.json").then(data => { console.log(data) })
+      $.get("http://localhost:5004/products.json").then(
+        data => {
+          console.log(data.data)
+          data.data.forEach(product => {
+            productString = `<div class="card product" style="width: 12rem;">
+<img class="card-img-top product-image" src="${product.image}" alt="Card image cap">
+<div class="card-body">
+  <h5 class="card-title product-name">${product.name}</h5>
+  <div><span class="product-price">${product.price}</span> <span class="product-discounted-price">${product.discountedPrice}</span></div>
+  <p class="card-text product-description">${product.description}</p>
+  <a href="#" class="btn btn-primary">Add to cart</a>
+</div>
+</div>`
+            $('.main-products .row').append(productString)
+          })
+        })
     })
   </script>
 </body>
