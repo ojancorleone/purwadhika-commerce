@@ -9,6 +9,8 @@ serve frontend
 ## Development Setup
 ```
 git remote add upsteam https://github.com/kemalelmizan/purwadhika-commerce.git
+git pull upstream master
+git push origin master
 ```
 
 ## Todo List
