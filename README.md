@@ -8,9 +8,10 @@ serve frontend
 
 ## Development Setup
 ```
+git clone https://github.com/<your_name>/purwadhika-commerce.git
+cd purwadhika-commerce
 git remote add upstream https://github.com/kemalelmizan/purwadhika-commerce.git
 git pull upstream master
-git push origin master
 ```
 
 ## Frontend
