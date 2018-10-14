@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,62 @@
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
-  <h1>Welcome to Purwadhika Commerce</h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <nav class="navbar navbar-light bg-light">
+          <a class="navbar-brand">PurwadhikaCommerce</a>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <ul class="nav nav-tabs flex-column flex-sm-row"" id=" myTab" role="tablist">
+          <li class="nav-item flex-sm-fill">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+              aria-selected="true">Home</a>
+          </li>
+          <li class="nav-item flex-sm-fill">
+            <a class="nav-link" id="products-tab" data-toggle="tab" href="#products" role="tab" aria-controls="products"
+              aria-selected="false">Products</a>
+          </li>
+          <li class="nav-item flex-sm-fill">
+            <a class="nav-link" id="categories-tab" data-toggle="tab" href="#categories" role="tab" aria-controls="categories"
+              aria-selected="false">Categories</a>
+          </li>
+          <li class="nav-item flex-sm-fill">
+            <a class="nav-link" id="promos-tab" data-toggle="tab" href="#promos" role="tab" aria-controls="promos"
+              aria-selected="false">Promos</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <h1>Home</h1>
+          </div>
+          <div class="tab-pane fade" id="products" role="tabpanel" aria-labelledby="products-tab">
+            <h1>Products</h1>
+          </div>
+          <div class="tab-pane fade" id="categories" role="tabpanel" aria-labelledby="categories-tab">
+            <h1>Categories</h1>
+          </div>
+          <div class="tab-pane fade" id="promos" role="tabpanel" aria-labelledby="promos-tab">
+            <h1>Promos</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
+
 </html>

@@ -21,5 +21,5 @@ git push origin master
 ## Todo List
 
 1. [x] data produk
-1. [ ] wireframe product page
+1. [x] wireframe product page
 1. [ ] develop front end untuk produk page
