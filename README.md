@@ -1,5 +1,11 @@
 # purwadhika-commerce
 
+## Installation
+```
+npm i -g serve
+serve frontend
+```
+
 ## Todo List
 
 1. [ ] data produk
