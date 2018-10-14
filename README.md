@@ -34,3 +34,13 @@ git pull upstream master
 git reset --hard HEAD
 git pull upstream master
 ```
+
+### Create new branch, pull master from upstream
+```
+git checkout -b mybranch
+git add .
+git commit -m "my new branch"
+git push origin mybranch
+git checkout master
+git pull upstream master
+```
