@@ -19,10 +19,10 @@ git pull upstream master
 
 ### Wireframe
 
-Interasi 1
+#### Interasi 1
 [![Wireframe](./docs/wireframe1.png)](./docs/wireframe1.png)
 
-Interasi 2
+#### Interasi 2
 [![Wireframe](./docs/wireframe2.png)](./docs/wireframe2.png)
 
 ## Todo List
