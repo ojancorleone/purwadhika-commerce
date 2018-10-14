@@ -13,8 +13,13 @@ git pull upstream master
 git push origin master
 ```
 
+## Frontend
+
+### Wireframe
+[![Wireframe](./docs/wireframe1.png)](./docs/wireframe1.png)
+
 ## Todo List
 
-1. [ ] data produk
+1. [x] data produk
 1. [ ] wireframe product page
 1. [ ] develop front end untuk produk page
