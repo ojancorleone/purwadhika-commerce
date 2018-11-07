@@ -1,0 +1,21 @@
+{
+  "name": "purwadhika-commerce",
+  "version": "1.0.0",
+  "description": "PurwadhikaCommerce App",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kemalelmizan/purwadhika-commerce.git"
+  },
+  "author": "Kemal Elmizan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kemalelmizan/purwadhika-commerce/issues"
+  },
+  "homepage": "https://github.com/kemalelmizan/purwadhika-commerce#readme"
+}

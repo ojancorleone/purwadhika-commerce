@@ -1,9 +1,33 @@
 # purwadhika-commerce
 
 ## Installation
+
+### Frontend (React)
+
+#### Starting Project
+```
+cd frontend
+create-react-app purwadhika-commerce
+cd purwadhika-commerce
+yarn start
+```
+
+#### Adding reactstrap dependencies
+```
+npm install --save bootstrap
+npm install --save reactstrap
+```
+
+#### Adding components
+1. Navbar
+2. Carousel
+3. Tab
+4. Card
+
+### Frontend (Legacy)
 ```
 npm i -g serve
-serve frontend
+serve frontend/legacy
 serve backend -p 5004
 ```
 
@@ -29,7 +53,7 @@ git pull upstream master
 
 1. [x] data produk
 1. [x] wireframe product page
-1. [ ] develop front end untuk produk page
+1. [x] develop front end untuk produk page
 
 ## Troubleshoot
 
