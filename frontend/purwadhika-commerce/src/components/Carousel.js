@@ -9,17 +9,17 @@ import {
 
 const items = [
   {
-    src: "https://placehold.it/800x400",
+    src: "https://placehold.it/930x400",
     altText: "Slide 1",
     caption: "Slide 1"
   },
   {
-    src: "https://placehold.it/800x400",
+    src: "https://placehold.it/930x400",
     altText: "Slide 2",
     caption: "Slide 2"
   },
   {
-    src: "https://placehold.it/800x400",
+    src: "https://placehold.it/930x400",
     altText: "Slide 3",
     caption: "Slide 3"
   }
