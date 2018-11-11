@@ -9,17 +9,20 @@ import {
 
 const items = [
   {
-    src: "https://placehold.it/930x400",
+    id : 1,
+    src: "https://placehold.it/1200x400",
     altText: "Slide 1",
     caption: "Slide 1"
   },
   {
-    src: "https://placehold.it/930x400",
+    id : 2,
+    src: "https://placehold.it/1200x400",
     altText: "Slide 2",
     caption: "Slide 2"
   },
   {
-    src: "https://placehold.it/930x400",
+    id : 3,
+    src: "https://placehold.it/1200x400",
     altText: "Slide 3",
     caption: "Slide 3"
   }
@@ -75,7 +78,7 @@ class MyCarousel extends Component {
         <CarouselItem
           onExiting={this.onExiting}
           onExited={this.onExited}
-          key={item.src}
+          key={item.id}
         >
           <img src={item.src} alt={item.altText} />
           <CarouselCaption
