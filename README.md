@@ -24,6 +24,12 @@ npm install --save reactstrap
 3. Tab
 4. Card
 
+#### Starting Frontend (React)
+```
+cd frontend/purwadhika-commerce
+npm start
+```
+
 ### Frontend (Legacy)
 ```
 npm i -g serve
