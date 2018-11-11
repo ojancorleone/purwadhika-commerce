@@ -26,7 +26,9 @@ npm install --save reactstrap
 
 #### Starting Frontend (React)
 ```
-cd ./frontend/purwadhika-commerce
+git clone https://github.com/kemalelmizan/purwadhika-commerce
+cd purwadhika-commerce/frontend/purwadhika-commerce
+npm install
 npm start
 ```
 
